@@ -27,3 +27,29 @@ for (int i = 1; i < 10; i++)
         continue;
     Console.WriteLine(i);
 }
+
+// While
+Console.WriteLine("Sayı giriniz :");
+int a = int.Parse(Console.ReadLine());
+int b = 1;
+int c = 0;
+while (b <= a)
+{
+    c += b;
+    b++;
+}
+Console.WriteLine(c / a);
+char e = 'a';
+while (e < 'z')
+{
+    Console.WriteLine(e);
+    e++;
+}
+
+// Foreach Loop
+string[] students = { "Fatma", "Sevgi", "Ayşe", "Alin" };
+
+foreach (var i in students)
+{
+    Console.WriteLine(i);
+}
