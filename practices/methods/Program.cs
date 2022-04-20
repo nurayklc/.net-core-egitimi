@@ -13,8 +13,31 @@ ExerciseMethods exerciseMethod = new ExerciseMethods();
 exerciseMethod.ConsoleWrite("Sum Method" + Convert.ToString(sum(23,56)));
 
 // Ref by Value 
-exerciseMethod.increaseAndSum(11,22);
+//exerciseMethod.increaseAndSum(11,22);
 
+
+
+// Out Param
+string number = "11111";
+bool result = int.TryParse(number, out int outNumber);
+if(result)
+    Console.WriteLine("Success" + outNumber);
+else
+    Console.WriteLine("Fail!");
+
+
+// Method Overloading Lesson 
+
+string welcome = "Welcomeee";
+int roomNumber = 8;
+
+Methods methodsInstance = new Methods();
+methodsInstance.Write(welcome);
+methodsInstance.Write(roomNumber);
+
+
+
+// Methods first Lesson
 class ExerciseMethods {
 
     public void ConsoleWrite(string data){
@@ -28,4 +51,15 @@ class ExerciseMethods {
         return param1 + param2;
     }
 
+}
+
+// Method Overloading Lesson
+class Methods {
+    public void Write(string data){
+        Console.WriteLine("Data: " + data);
+    }
+
+    public void Write(int data){
+        Console.WriteLine("Data: " + data);
+    }
 }
