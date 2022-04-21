@@ -1,6 +1,6 @@
 # Kodluyoruz DotNet Core Eğitimi
 -----------------------------------------------------------------------------------------------
-This repository created Front-End Education with [Kodluyoruz](https://www.kodluyoruz.org/) & [Patika.dev](https://www.patika.dev/tr).
+This repository created .Net Core Education with [Kodluyoruz](https://www.kodluyoruz.org/) & [Patika.dev](https://www.patika.dev/tr).
 
 Includes homework and exercises with Kodluyoruz and Patika.dev.
 
