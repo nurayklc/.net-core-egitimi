@@ -1,4 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System.Collections.Generic;
+using System.Collections;
+// See https://aka.ms/new-console-template for more information
 
 // Collections
 // List<T> class
@@ -106,6 +108,63 @@ foreach (Users user in usersList)
 usersList.Clear();
 
 
+
+
+
+// ArrayList 
+ArrayList arrList = new ArrayList();
+arrList.Add("Ayşe");
+arrList.Add(2);
+arrList.Add(true);
+arrList.Add('A');
+
+Console.WriteLine(arrList[0]);
+foreach (var item in arrList)
+{
+    Console.WriteLine(item);
+}
+
+// AddRange : Birden fazla elemanı ekleme
+string [] colors = {"Mavi", "Sarı", "Turuncu"};
+List<int> numbers = new List<int>(){8,6,3,9,1,4,745,23};
+arrList.AddRange();
+arrList.AddRange(numbers);
+
+foreach (var item in arrList)
+{
+    Console.WriteLine(item);
+}
+
+
+// ArrayList Sort : sadece aynı tipteki elemanları sıralar yoksa hata verir
+/* arrList.Sort();
+
+foreach (var item in arrList)
+{
+    Console.WriteLine(item);
+}
+
+// BinearySearch : index numarasına göre dizinin elemanını verir
+arrList.BinarySearch();
+ */
+
+// Reverse 
+arrList.Reverse();
+foreach (var item in arrList)
+{
+    Console.WriteLine(item);
+}
+
+
+// Clear
+arrList.Clear();
+
+
+
+
+
+
+// Collections Lession Example
 public class Users{
 
     private string name;
