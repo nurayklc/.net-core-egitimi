@@ -6,8 +6,6 @@ Includes homework and exercises with Kodluyoruz and Patika.dev.
 
 For Example: 
 
-![picture](picture.PNG)
-
 ## Installation
 
 First, clone the project.(Your repository link)
