@@ -127,7 +127,7 @@ foreach (var item in arrList)
 // AddRange : Birden fazla elemanı ekleme
 string [] colors = {"Mavi", "Sarı", "Turuncu"};
 List<int> numbers = new List<int>(){8,6,3,9,1,4,745,23};
-arrList.AddRange();
+//arrList.AddRange();
 arrList.AddRange(numbers);
 
 foreach (var item in arrList)
@@ -162,6 +162,47 @@ arrList.Clear();
 
 
 
+// Dictionary - Key,Value
+Dictionary<int, string> users = new Dictionary<int,string>();
+users.Add(1,"Ayşe");
+users.Add(2,"Fatma");
+users.Add(3,"Ali");
+users.Add(4,"Deniz");
+
+// Listeleme
+Console.WriteLine(users[4]);
+foreach (var item in users)
+{
+    Console.WriteLine(item);
+}
+
+// Count
+Console.WriteLine(users.Count);
+
+// Contains
+Console.WriteLine(users.ContainsKey(3));
+Console.WriteLine(users.ContainsValue("Derya"));
+
+
+// Remove
+Console.WriteLine(users.Remove(2));
+foreach (var item in users)
+{
+    Console.WriteLine(item);
+}
+
+
+// Keys
+foreach (var item in users.Keys)
+{
+    Console.WriteLine(item);
+}
+
+// Values
+foreach (var item in users.Values)
+{
+    Console.WriteLine(item);
+}
 
 
 // Collections Lession Example
