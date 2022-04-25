@@ -7,12 +7,12 @@ ArrayList primeList = new ArrayList();
 ArrayList notPrimeList = new ArrayList();
 
 // Girdi Alma
-Console.WriteLine("20 Adet Sayı Giriniz: ");
+Console.WriteLine("Please enter positive 20 number!!");
 for(int i = 0; i < 20; i++){
     back:
     try
     {
-        Console.WriteLine(i+1 + ". Sayınızı Giriniz: ");
+        Console.WriteLine(i+1 + ". Number: ");
         int n = Convert.ToInt32(Console.ReadLine());
         if(!n.isPositive()){
             Console.WriteLine("Not negative number!!");
