@@ -18,6 +18,16 @@ secondEmployee.Department = "IK";
 secondEmployee.EmployeeInfo();
 
 
+Employee employee1 = new Employee("Elif", "Kara", 3, "IT");
+employee1.EmployeeInfo();
+
+
+
+Employee employee2 = new Employee("Deniz", "Akgün");
+employee2.EmployeeInfo();
+
+
+
 // Create Class
 class Employee {
 
@@ -26,6 +36,20 @@ class Employee {
     public int No;
     public string Department;
 
+    // Method Overloading
+    public Employee(string name, string surname, int no, string department){
+        this.Name = name;
+        this.Surname = surname;
+        this.No = no;
+        this.Department = department;
+    }
+
+    public Employee(string name, string surname){
+        this.Name = name;
+        this.Surname = surname;
+    }
+
+    public Employee(){}
 
     public void EmployeeInfo(){
         Console.WriteLine("Employee Name: " + Name);
