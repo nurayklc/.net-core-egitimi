@@ -33,6 +33,7 @@ for(int i = 0; i < 20; i++){
 
 // Listeleme
 primeList.Sort();
+primeList.Reverse();
 int primeMedium = 0;
 Console.WriteLine("-- Prime Number List --");
 foreach (var item in primeList)
@@ -43,7 +44,9 @@ foreach (var item in primeList)
 Console.WriteLine("Prime List Length: " + primeList.Count);
 Console.WriteLine("Prime List Medium: " + Convert.ToInt32(primeMedium / primeList.Count));
 
+
 notPrimeList.Sort();
+notPrimeList.Reverse();
 int notPrimeMedium = 0;
 Console.WriteLine("-- Not Prime Number List --");
 foreach (var item in notPrimeList)
