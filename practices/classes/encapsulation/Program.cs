@@ -67,10 +67,10 @@ class Student{
     }
 
     public void GetInfoStudent(){
-        Console.WriteLine("Student Name: " , this.Name);
-        Console.WriteLine("Student Surname: " , this.Surname);
-        Console.WriteLine("Student No: " , this.StdntNo);
-        Console.WriteLine("Student Class: " , this.StdntClass);
+        Console.WriteLine("Student Name: {0}" , this.name);
+        Console.WriteLine("Student Surname: {0} " , this.Surname);
+        Console.WriteLine("Student No: {0}" , this.StdntNo);
+        Console.WriteLine("Student Class: {0}" , this.StdntClass);
     }
 
     public void PassClass(){
