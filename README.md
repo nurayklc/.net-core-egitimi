@@ -4,8 +4,6 @@ This repository created .Net Core Education with [Kodluyoruz](https://www.kodluy
 
 Includes homework and exercises with Kodluyoruz and Patika.dev.
 
-For Example: 
-
 ## Installation
 
 First, clone the project.(Your repository link)
